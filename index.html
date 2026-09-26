@@ -1,28 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; viewport-fit=cover"/>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<title>ISOLIR WI-FI Bee Network</title>
-<style id="bilhanet-isolir-pppoe">
-html,body{min-height:100%}body{font-family:'Helvetica',arial,sans-serif;font-size:15px;background-color:#336DB7}.container{background:#fefefe;position:relative;max-width:450px;margin-top:25px;margin-left:auto;margin-right:auto;overflow:hidden;padding:10px;width:90%;margin-bottom:30px}.bilhanet{background:#a2a09b;background:-webkit-linear-gradient(315deg,hsla(236.6,0%,53.52%,1) 0,hsla(236.6,0%,53.52%,0) 70%),-webkit-linear-gradient(65deg,hsla(220.75,34.93%,26.52%,1) 10%,hsla(220.75,34.93%,26.52%,0) 80%),-webkit-linear-gradient(135deg,hsla(46.42,36.62%,83.92%,1) 15%,hsla(46.42,36.62%,83.92%,0) 80%),-webkit-linear-gradient(205deg,hsla(191.32,50.68%,56.45%,1) 100%,hsla(191.32,50.68%,56.45%,0) 70%);background:linear-gradient(135deg,hsla(236.6,0%,53.52%,1) 0,hsla(236.6,0%,53.52%,0) 70%),linear-gradient(25deg,hsla(220.75,34.93%,26.52%,1) 10%,hsla(220.75,34.93%,26.52%,0) 80%),linear-gradient(315deg,hsla(46.42,36.62%,83.92%,1) 15%,hsla(46.42,36.62%,83.92%,0) 80%),linear-gradient(245deg,hsla(191.32,50.68%,56.45%,1) 100%,hsla(191.32,50.68%,56.45%,0) 70%)}.headatas{text-align:center}.logoisolir{background:#ff5400;display:inline-block;padding:15px;border-radius:8px;margin:10px auto}.konten{margin:15px 0;padding:10px 20px;border-radius:3px;line-height:1.8em;text-align:center;border:1px solid #f6f7c6;color:#444;background:#f9f9f9}.konten a,.konten a:hover,.konten a:visited,.konten a:active{color:#fff;text-decoration:underline}.notiferr{background:#fdffcc;color:#fa0000;border:1px solid #f7ff00;padding:10px;font-weight:700;font-style:italic}.cpright{font-size:larger;color:#000;font-style:italic;font-weight:700}p{margin-bottom:5px;line-height:1.5em}a,a:hover,a:visited,a:active{color:#0a53ff;text-decoration:none}h2,h3{margin-top:5px;margin-bottom:10px;color:#333}hr{border-bottom:1px solid #e8e8e8;color:#e8e8e8}ul,ol{margin:0;padding:0 0 0 15px}ul li,ol li{line-height:1.6;padding:5px 0}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akses Ditangguhkan - Bee Network</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f7f9fa; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+        .card { background: white; max-width: 450px; width: 100%; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); padding: 35px; text-align: center; border-top: 8px solid #FFC107; }
+        .icon { font-size: 64px; margin-bottom: 20px; color: #FFC107; }
+        h2 { color: #212529; font-size: 24px; margin-bottom: 15px; font-weight: 700; }
+        p { color: #6c757d; font-size: 14px; line-height: 1.6; margin-bottom: 15px; text-align: center; }
+        .info-box { background-color: #fff9e6; border: 1px solid #ffe8a1; border-radius: 8px; padding: 15px; text-align: left; margin-top: 25px; margin-bottom: 25px; }
+        .info-title { font-weight: bold; color: #856404; font-size: 13px; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .info-detail { font-size: 14px; color: #856404; line-height: 1.6; }
+        .btn { display: inline-block; width: 100%; background-color: #25D366; color: white; padding: 14px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 16px; transition: 0.3s; box-shadow: 0 4px 12px rgba(37, 211, 102, 0.2); }
+        .btn:hover { background-color: #20ba56; }
+        .footer { margin-top: 30px; font-size: 12px; color: #adb5bd; }
+    </style>
 </head>
-<body class="bilhanet">
-<div class="container">
-<div class="headatas">
-<h2>WI-FI TERISOLIR</h2>
-<div class="logoisolir"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="38" height="38" viewBox="0 0 24 24"><path fill="#ffffff" d="M12,17C10.89,17 10,16.1 10,15C10,13.89 10.89,13 12,13A2,2 0 0,1 14,15A2,2 0 0,1 12,17M18,20V10H6V20H18M18,8A2,2 0 0,1 20,10V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V10C4,8.89 4.89,8 6,8H7V6A5,5 0 0,1 12,1A5,5 0 0,1 17,6V8H18M12,3A3,3 0 0,0 9,6V8H15V6A3,3 0 0,0 12,3Z" /></svg></div>
-<p class="notiferr">Internet Dinonaktifkan Sementara</p>
+<body>
+
+<div class="card">
+    <div class="icon">⚠️</div>
+    
+    <h2>Layanan Isolir Otomatis</h2>
+    
+    <p>Pelanggan <strong>Bee Network</strong> yang terhormat, Kami informasikan bahwa layanan internet Anda saat ini terisolir atau dimatikan sementara.</p>
+    
+    <p>Dimohon untuk melakukan pembayaran tagihan agar internet kembali normal.</p>
+    
+    <div class="info-box">
+        <div class="info-title">Metode Pembayaran Resmi</div>
+        <div class="info-detail">
+            • <strong>Bank BRI:</strong> 445901023358536<br>
+            • <strong>Dana:</strong> 087887844455<br>
+            • <strong>A.N.</strong> Usep Sopwan A.<br>
+            • <strong>Jatuh Tempo:</strong> Sebelum tanggal 5 setiap bulan
+        </div>
+    </div>
+    
+    <a href="https://wa.me" class="btn" target="_blank">
+        💬 Konfirmasi Pembayaran
+    </a>
+    
+    <div class="footer">
+        &copy; 2026 Bee Network - Terpercaya & Stabil.
+    </div>
 </div>
-<div class="konten">
-<p>Pelanggan Wi-Fi Bee Network yang terhormat,<br/>
-Kami informasikan bahwa layanan internet Anda saat ini terisolir atau dimatikan sementara.</p>
-<p>Dimohon untuk melakukan pembayaran tagihan agar internet kembali normal.</p>
-<p>Untuk menghindari ketidaknyamanan ini dikemudian hari,<br/>
-dimohon untuk melakukan pembayaran sebelum tanggal 5 setiap bulannya.</p>
-<p>Terima kasih.<br/><span class="cpright">Bee Network</span></p>
-</div>
-</div>
+
 </body>
-</html><!-- EOF: BILHANET -->
+</html>
